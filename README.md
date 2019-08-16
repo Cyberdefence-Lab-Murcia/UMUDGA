@@ -1,4 +1,4 @@
-#UMUDGA - University of Murcia Domain Generation Algorithm Dataset
+# UMUDGA - University of Murcia Domain Generation Algorithm Dataset
 
 This is the official repository for the UMUDGA dataset. Please refer to the WIKI page for usage and detailed information. 
 
