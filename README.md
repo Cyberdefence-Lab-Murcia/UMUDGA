@@ -18,4 +18,6 @@ Authors are with the Department of Information and Communications Engineering, U
 T.B.A.
 
 ## Bibliography
-1. M. Zago, M. Gil Pérez, and G. Martínez Pérez, "_Scalable Detection of Botnets based on DGA: Efficient Feature Discovery Process in Machine Learning Techniques_," Soft Comput., Jan. 2019. DOI: [[10.1007/s00500-018-03703-8|https://dx.doi.org/10.1007%2Fs00500-018-03703-8]]
+1. M. Zago, M. Gil Pérez, and G. Martínez Pérez, "_Scalable Detection of Botnets based on DGA: Efficient Feature Discovery Process in Machine Learning Techniques_," Soft Comput., Jan. 2019. DOI: [10.1007/s00500-018-03703-8](https://dx.doi.org/10.1007%2Fs00500-018-03703-8)
+2. M. Zago, M. Gil Pérez, and G. Martínez Pérez, "_UMUDGA: a dataset for profiling DGA-based botnet_," Computers & Security, Jan. 2020. DOI: [10.1016/j.cose.2020.101719](https://dx.doi.org/10.1016/j.cose.2020.101719)
+3. M. Zago, M. Gil Pérez, and G. Martínez Pérez, "_UMUDGA: University of Murcia domain generation algorithm dataset_," Mendeley Data, Jan. 2020. DOI: [10.17632/y8ph45msv8.1](https://dx.doi.org/10.17632/y8ph45msv8.1)
