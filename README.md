@@ -2,6 +2,11 @@
 
 This is the official repository for the UMUDGA dataset. Please refer to the WIKI page for usage and detailed information. 
 
+[![Article](https://webs.um.es/mattia.zago/images/UMUDGA-Badge-CoSe.svg)](https://dx.doi.org/10.1016/j.cose.2020.101719)
+[![Dataset](https://webs.um.es/mattia.zago/images/UMUDGA-Badge-Data.svg)](http://dx.doi.org/10.17632/y8ph45msv8.1)
+[![Documentation](https://webs.um.es/mattia.zago/images/UMUDGA-Badge-DiB.svg)](http://dx.doi.org/10.1016/j.dib.2020.105400)
+[![Code](https://webs.um.es/mattia.zago/images/UMUDGA-Badge-Code.svg)](https://doi.org/10.5281/zenodo.3618221)
+
 ## Authors
 - Mattia Zago (mattia.zago [at] um [dot] es)
 - Manuel Gil Pérez (mgilperez [at] um [dot] es)
@@ -18,6 +23,7 @@ Authors are with the Department of Information and Communications Engineering, U
 T.B.A.
 
 ## Bibliography
-1. M. Zago, M. Gil Pérez, and G. Martínez Pérez, "_Scalable Detection of Botnets based on DGA: Efficient Feature Discovery Process in Machine Learning Techniques_," Soft Comput., Jan. 2019. DOI: [10.1007/s00500-018-03703-8](https://dx.doi.org/10.1007%2Fs00500-018-03703-8)
-2. M. Zago, M. Gil Pérez, and G. Martínez Pérez, "_UMUDGA: a dataset for profiling DGA-based botnet_," Computers & Security, Jan. 2020. DOI: [10.1016/j.cose.2020.101719](https://dx.doi.org/10.1016/j.cose.2020.101719)
-3. M. Zago, M. Gil Pérez, and G. Martínez Pérez, "_UMUDGA: University of Murcia domain generation algorithm dataset_," Mendeley Data, Jan. 2020. DOI: [10.17632/y8ph45msv8.1](https://dx.doi.org/10.17632/y8ph45msv8.1)
+1. M. Zago, M. Gil Pérez, and G. Martínez Pérez, "Scalable Detection of Botnets based on DGA: Efficient Feature Discovery Process in Machine Learning Techniques," _Soft Computing_, vol. 24, p. 5517–5537, Jan. 2019. DOI: [10.1007/s00500-018-03703-8](https://dx.doi.org/10.1007%2Fs00500-018-03703-8)
+2. M. Zago, M. Gil Pérez, and G. Martínez Pérez, "UMUDGA: a dataset for profiling DGA-based botnet," _Computers & Security_, vol. 92, p. 101719, May 2020. DOI: [10.1016/j.cose.2020.101719](https://dx.doi.org/10.1016/j.cose.2020.101719)
+3. M. Zago, M. Gil Pérez, and G. Martínez Pérez, "UMUDGA: University of Murcia domain generation algorithm dataset," _Mendeley Data_, Jan. 2020. DOI: [10.17632/y8ph45msv8.1](https://dx.doi.org/10.17632/y8ph45msv8.1)
+4. M. Zago, M. Gil Pérez, and G. Martínez Pérez, "UMUDGA: A dataset for profiling algorithmically generated domain names in botnet detection," _Data in Brief_, vol. 30, p. 105400, Jun. 2020. DOI: [10.1016/j.dib.2020.105400](https://dx.doi.org/10.1016/j.dib.2020.105400)
