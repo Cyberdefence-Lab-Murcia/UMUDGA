@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           targetNamespace="http://dga.um.es/xml/dga.xsd" xmlns:db="http://dga.um.es/xml/mongodb.xsd"
+           xmlns:dga="http://dga.um.es/xml/dga.xsd">
+    <xs:import namespace="http://dga.um.es/xml/mongodb.xsd" schemaLocation="mongodb.xsd"/>
+    <xs:element name="config">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="dga:flags" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="dga:localstorage" minOccurs="1" maxOccurs="1"/>
+                <xs:element ref="db:mongodb" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="flags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="dga:flag"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="flag">
+        <xs:complexType>
+            <xs:attribute name="name" use="required" type="xs:NCName"/>
+            <xs:attribute name="value" use="required" type="xs:boolean"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="localstorage">
+        <xs:complexType>
+            <xs:attribute name="path" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
