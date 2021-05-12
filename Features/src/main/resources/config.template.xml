@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dga:config xmlns:db="http://dga.um.es/xml/mongodb.xsd"
+            xmlns:dga="http://dga.um.es/xml/dga.xsd">
+
+    <dga:flags>
+        <dga:flag name="DROP_COLLECTIONS" value="false"/>
+        <dga:flag name="REPORT_ONLY" value="true"/>
+    </dga:flags>
+
+    <dga:localstorage path="Absolute path ending with a slash"/>
+
+    <db:mongodb>
+        <db:host id="HOST_NAME" url="ANY_URI" port="27017" ssl="false">
+            <db:database id="DGA">
+                <db:user id="USERNAME" password="PASSWORD"/>
+                <db:collections>
+                    <db:collection name="COLLECTION_NAME1" upsert="true" ordered="false"
+                                   bypassDocumentValidation="true" />
+                </db:collections>
+            </db:database>
+        </db:host>
+    </db:mongodb>
+
+</dga:config>

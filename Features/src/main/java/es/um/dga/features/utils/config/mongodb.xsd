@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           targetNamespace="http://dga.um.es/xml/mongodb.xsd"
+           xmlns:db="http://dga.um.es/xml/mongodb.xsd">
+
+    <xs:element name="user">
+        <xs:complexType>
+            <xs:attribute name="id" use="required" type="xs:string"/>
+            <xs:attribute name="password" use="required" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="collection">
+        <xs:complexType>
+            <xs:attribute name="name" use="required" type="xs:string"/>
+            <xs:attribute name="upsert" use="optional" default="false" type="xs:boolean"/>
+            <xs:attribute name="ordered" use="optional" default="false" type="xs:boolean"/>
+            <xs:attribute name="bypassDocumentValidation" use="optional" default="false" type="xs:boolean"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="collections">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="1" maxOccurs="unbounded" ref="db:collection"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="database">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="db:user" minOccurs="0" maxOccurs="1"/>
+                <xs:element ref="db:collections" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+            <xs:attribute name="id" use="required" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="host">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="db:database" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id" use="required"/>
+            <xs:attribute type="xs:anyURI" name="url" use="required"/>
+            <xs:attribute type="xs:short" name="port" use="required"/>
+            <xs:attribute type="xs:boolean" name="ssl" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="mongodb">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="db:host" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
