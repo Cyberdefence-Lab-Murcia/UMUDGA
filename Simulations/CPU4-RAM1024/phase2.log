@@ -1,0 +1,18 @@
+/Experiments
+Memory: 96.69140625 CPUTime: 1.4698229999999999
+Data loaded
+Memory: 105.984375 CPUTime: 1.47602
+Sharing Model and Data with Edge (20%)
+Model loaded
+Memory: 515.4296875 CPUTime: 1.596881
+Labels known to edge:  [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20]
+Memory: 515.4296875 CPUTime: 1.5984859999999999
+Edge adds 10 estimators... Memory: 515.4296875 CPUTime: 1.598512
+OK; Fitting (+40000 samples)... OK;
+Memory: 541.125 CPUTime: 4.539779
+Edge test with actual testing set
+Memory: 547.73828125 CPUTime: 4.994836
+- F1 Micro: 0.932
+- F1 Macro: 0.930
+Memory: 547.73828125 CPUTime: 5.019699
+mprof: Sampling memory every 0.1s

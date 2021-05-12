@@ -1,0 +1,15 @@
+/Experiments
+Memory: 96.8671875 CPUTime: 1.21851
+Data loaded
+Memory: 105.87109375 CPUTime: 1.2294
+Sharing Model and Data with Edge (20%)
+Model loaded
+Memory: 515.41796875 CPUTime: 1.345032
+Labels known to edge:  [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20]
+Memory: 515.41796875 CPUTime: 1.346299
+Edge test with actual testing set
+Memory: 515.41796875 CPUTime: 1.685919
+- F1 Micro: 0.934
+- F1 Macro: 0.932
+Memory: 515.41796875 CPUTime: 1.734856
+mprof: Sampling memory every 0.1s

@@ -1,0 +1,22 @@
+/Experiments
+Memory: 96.62109375 CPUTime: 1.408033
+Data loaded
+Memory: 127.88671875 CPUTime: 1.418634
+Labels known to cloud: [ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20]
+Create RF... OK; RandomForestClassifier(n_estimators=50, n_jobs=-1, random_state=42,
+                       warm_start=True)
+Memory: 127.88671875 CPUTime: 1.426199
+Fitting (160000 samples)... OK;
+Memory: 378.76953125 CPUTime: 58.967308
+Cloud Cross-Evaluation
+- F1 Micro: 0.936
+- F1 Macro: 0.934
+Memory: 553.65625 CPUTime: 294.884927
+Cloud test with actual testing set
+Memory: 553.65625 CPUTime: 295.194224
+- F1 Micro: 0.934
+- F1 Macro: 0.932
+Memory: 553.65625 CPUTime: 295.215397
+Dumping model to disk; OK
+Memory: 564.02734375 CPUTime: 295.263892
+mprof: Sampling memory every 0.1s
